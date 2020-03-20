@@ -1,0 +1,180 @@
+:root {
+    --primary-color: #7159c1;
+    --secundary-color: #f7df1e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--primary-color);
+    height: 100%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: #4f00ee solid 3px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.link {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 10px;
+    align-self: center;
+    text-decoration: none;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.link :hover {
+    color: var(--primary-color);
+    border-bottom: #4f00ee solid 5px;
+    transition: ease-in-out 0.2s;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(53, 48, 48);
+}
+
+
+/* Card */
+
+.card {
+    background-color: #fff;
+    height: 500px auto;
+    width: 800px;
+    margin-top: 45px;
+    /* espaçamento ao centro */
+    margin: 45px auto;
+    /* grid template /2 */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* sombra */
+    box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.5);
+    /* borda */
+    border-radius: 10px;
+    /* animation-duration */
+    animation-name: up;
+    animation-duration: 1s;
+}
+
+.avatar {
+    background: url(https://source.unsplash.com/collection/3465564/500x500) no-repeat center center / cover;
+    /* borda */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+@keyframes up {
+    from {
+        opacity: 0;
+        margin: 70px auto;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* DETAILS */
+
+.details {
+    padding: 32px;
+}
+
+.details .item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+}
+
+.details .item:last-child {
+    border: none;
+}
+
+.details h3,
+.details .item div:nth-child(1) {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    letter-spacing: 0.7px;
+    font-weight: normal;
+}
+
+.details .item div:nth-child(2) {
+    color: #555;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.details h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.details .item span {
+    padding: 8px 16px;
+    background-color: var(--secundary-color);
+    border-radius: 16px;
+    color: #777;
+    display: inline-flex;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+/* FORM  */
+
+input {
+    width: 100%;
+    outline: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+}
+
+input[type='radio'] {
+    width: initial;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+button[type='submit'] {
+    padding: 8px 32px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 32px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    transition: ease-out 0.5s;
+}
+
+button[type='submit']:hover {
+    opacity: 0.9;
+}
