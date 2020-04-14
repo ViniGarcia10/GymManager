@@ -1,0 +1,66 @@
+{
+  "members": [
+    {
+      "id": 986529368,
+      "name": "VINICIUS GARCIA LEAO",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/32495036?s=400&u=fed87a9d7be545ad677f52421823cf287a56e7c1&v=4",
+      "gender": "M",
+      "blood": "O1",
+      "email": "viniciusgarcia49@gmail.com",
+      "weight": "62",
+      "height": "173",
+      "birth": 895881600000,
+      "created_at": 1586897557843
+    },
+    {
+      "id": 990481108,
+      "name": "LETÍCIA DE MELO SANTANA",
+      "birth": 921628800000,
+      "avatar_url": "https://scontent.fpbq1-1.fna.fbcdn.net/v/t1.0-9/p960x960/43303801_2249162075319545_3965503782107742208_o.jpg?_nc_cat=105&_nc_sid=85a577&_nc_oc=AQljzrBhZz1Dag_B8UYQG8_Ol1Xwp_Hqau1iexZp6PUX_i9q1fbm4C6iDtPHxjN_n5U&_nc_ht=scontent.fpbq1-1.fna&_nc_tp=6&oh=0c451d2a6d5974e6af610d10c85c1e0f&oe=5EB46097",
+      "gender": "F",
+      "blood": "O0",
+      "email": "leticiasanatana@gmail.com",
+      "weight": "60",
+      "height": "160",
+      "created_at": 1586897648715
+    }
+  ],
+  "instructors": [
+    {
+      "id": 19091035,
+      "name": "VINICIUS GARCIA LEAO",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/32495036?s=400&u=fed87a9d7be545ad677f52421823cf287a56e7c1&v=4",
+      "gender": "F",
+      "services": [
+        "crossfit",
+        "spinner",
+        "musculação",
+        "natação"
+      ],
+      "birth": 926899200000,
+      "created_at": 1586354798366
+    },
+    {
+      "id": 919746076,
+      "name": "LETÍCIA DE MELO SANTANA",
+      "avatar_url": "https://scontent.fpbq1-1.fna.fbcdn.net/v/t1.0-9/p960x960/43303801_2249162075319545_3965503782107742208_o.jpg?_nc_cat=105&_nc_sid=85a577&_nc_oc=AQljzrBhZz1Dag_B8UYQG8_Ol1Xwp_Hqau1iexZp6PUX_i9q1fbm4C6iDtPHxjN_n5U&_nc_ht=scontent.fpbq1-1.fna&_nc_tp=6&oh=0c451d2a6d5974e6af610d10c85c1e0f&oe=5EB46097",
+      "gender": "F",
+      "services": [
+        "crossfit",
+        "spinner",
+        "musculação",
+        "natação",
+        "triatulo",
+        "supino",
+        "futebol",
+        "natação",
+        "triatulo",
+        "revezamento",
+        "basket",
+        "maia"
+      ],
+      "birth": 921628800000,
+      "created_at": 1586374563741
+    }
+  ]
+}
